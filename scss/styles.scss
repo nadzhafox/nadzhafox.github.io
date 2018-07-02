@@ -32,7 +32,12 @@
     ----- 1. Variables -----
     ------------------------
 */
-
+ul{
+    list-style: none;
+}
+li{
+    padding-top:8px;
+}
 // Define base and accent colors
 $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
@@ -85,7 +90,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family:  'Roboto',  sans-serif;
     font-size: 16px;
 
     &.active {
